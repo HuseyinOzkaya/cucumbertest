@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="103.443">
-    <testcase classname="Search Cities" name="capitals are on the search page" time="9.814">
-        <system-out><![CDATA[When user is on the google page.............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="126.654">
+<testcase classname="Search Cities" name="capitals are on the search page" time="13.73">
+<system-out><![CDATA[When user is on the google page.............................................passed
 And user search for "Denizli"...............................................passed
 Then verify the result has "Denizli"........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Search Cities" name="capitals are on the search page 2" time="6.003">
-        <system-out><![CDATA[When user is on the google page.............................................passed
+</testcase>
+<testcase classname="Search Cities" name="capitals are on the search page 2" time="7.629">
+<system-out><![CDATA[When user is on the google page.............................................passed
 And user search for "Trabson"...............................................passed
 Then verify the result has "Trabson"........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Search Cities" name="capitals are on the search page 3" time="7.585">
-        <system-out><![CDATA[When user is on the google page.............................................passed
+</testcase>
+<testcase classname="Search Cities" name="capitals are on the search page 3" time="7.198">
+<system-out><![CDATA[When user is on the google page.............................................passed
 And user search for "Berlin"................................................passed
 Then verify the result has "Berlin".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Search Cities" name="capitals are on the search page 4" time="6.391">
-        <system-out><![CDATA[When user is on the google page.............................................passed
+</testcase>
+<testcase classname="Search Cities" name="capitals are on the search page 4" time="7.517">
+<system-out><![CDATA[When user is on the google page.............................................passed
 And user search for "Toronto"...............................................passed
 Then verify the result has "Toronto"........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="TC01_iPhone search" time="4.984">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="TC01_iPhone search" time="6.056">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "Denizli"...............................................passed
 Then verify the result has "Denizli"........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="" time="4.798">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="" time="5.418">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "iPhone"................................................passed
 Then verify the result has "iPhone".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_2" time="4.858">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_2" time="5.367">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "flower"................................................passed
 Then verify the result has "flower".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_3" time="4.879">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_3" time="6.325">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "teapot"................................................passed
 Then verify the result has "teapot".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_4" time="4.745">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_4" time="5.493">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "tesla".................................................passed
 Then verify the result has "tesla"..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_5" time="5.118">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_5" time="5.144">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "iPhone"................................................passed
 Then verify the result has "iPhone".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_6" time="6.004">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_6" time="5.338">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "flower"................................................passed
 Then verify the result has "flower".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_7" time="4.908">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_7" time="5.457">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "teapot"................................................passed
 Then verify the result has "teapot".........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="Google Search Functionality" name="_8" time="4.513">
-        <system-out><![CDATA[Given user is on the google page............................................passed
+</testcase>
+<testcase classname="Google Search Functionality" name="_8" time="6.033">
+<system-out><![CDATA[Given user is on the google page............................................passed
 And user search for "tesla".................................................passed
 Then verify the result has "tesla"..........................................passed
 Then close the application..................................................passed
 ]]></system-out>
-    </testcase>
-    <testcase classname="validate user can login to their account" name="_2" time="28.36">
-        <system-out><![CDATA[When user visit to application page.........................................passed
+</testcase>
+<testcase classname="validate user can login to their account" name="_2" time="39.234">
+<system-out><![CDATA[When user visit to application page.........................................passed
 And user clicks on the sign in button.......................................passed
 And user enters login_username and login_password...........................passed
 And user clicks on my addresses.............................................passed
@@ -102,5 +102,5 @@ Then click on Save Button...................................................pass
 Then Take screenshoot.......................................................passed
 Then user close the test page...............................................passed
 ]]></system-out>
-    </testcase>
+</testcase>
 </testsuite>

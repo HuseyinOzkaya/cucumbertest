@@ -30,7 +30,7 @@ public class Day03_DataProvider {
 
     @When("user enters login_username and login_password")
     public void user_enters_login_username_and_login_password(DataTable dataTable) {
-        List<String> userCredential = dataTable.row(0);
+        List<String> userCredential = dataTable.row(1);
         String email = userCredential.get(0);
         String password = userCredential.get(1);
         testShopingPage.emailBox.sendKeys(email);

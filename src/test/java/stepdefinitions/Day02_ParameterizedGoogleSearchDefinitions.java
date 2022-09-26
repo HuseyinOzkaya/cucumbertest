@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,6 +8,9 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.Keys;
 import pages.GooglePage;
 import pages.TestShopingPage;
+
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -57,4 +61,12 @@ public class Day02_ParameterizedGoogleSearchDefinitions {
         closeDriver();
     }
 
+    @And("user enters manager credentials")
+    public void userEntersManagerCredentials(DataTable dataTable) {
+        List<Map<String,String>> credentialValues = dataTable.asMaps();
+        for(Map<String, String> eachCredentials : credentialValues) {
+            testShopingPage.emailBox.sendKeys(eachCredentials.get("username"));
+            testShopingPage.passwordBox.sendKeys(eachCredentials.get("password") + Keys.ENTER);
+        }
+    }
 }

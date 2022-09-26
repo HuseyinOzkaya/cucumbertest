@@ -5,6 +5,7 @@ Feature: validate user can login to their account
     When user visit to application page
     And user clicks on the sign in button
     And user enters login_username and login_password
+      | username         | password  |
       | manager1@hic.com | Manager1! |
     And user clicks on my addresses
     And user clicks on add new address
@@ -14,3 +15,14 @@ Feature: validate user can login to their account
     Then click on Save Button
     Then Take screenshoot
     Then user close the test page
+
+
+  @manager_login
+  Scenario:
+    When user is on the application page
+    And user clicks on the login button
+    And user enters manager credentials
+      | username         | password  |
+      | manager1@hic.com | Manager1! |
+    Then verify <"username"> is displayed
+    Then close the test page
