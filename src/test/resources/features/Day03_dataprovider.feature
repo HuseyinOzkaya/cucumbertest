@@ -17,7 +17,7 @@ Feature: validate user can login to their account
     Then user close the test page
 
 
-  @manager_login @smoke
+  @manager_login
   Scenario:
     When user is on the application page
     And user clicks on the login button

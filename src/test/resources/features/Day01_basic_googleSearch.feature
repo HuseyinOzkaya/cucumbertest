@@ -1,4 +1,4 @@
-@google_search
+@google_search @smoke
 Feature: Google Search Functionality
 
   Scenario: TC01_iPhone search

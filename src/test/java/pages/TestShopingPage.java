@@ -66,6 +66,8 @@ public class TestShopingPage {
     @FindBy(id ="alias")
     public WebElement addressName;
 
+    @FindBy (linkText = "Sign out")
+    public WebElement signOutButton;
 
 
 
